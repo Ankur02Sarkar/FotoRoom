@@ -22,7 +22,7 @@ const Sidebar = () => {
           />
         </Link>
 
-        <nav className="sidebar-nav justify-start">
+        <nav className="sidebar-nav">
           <SignedIn>
             <ul className="sidebar-nav_elements">
               {navLinks.slice(0, 6).map((link) => {
